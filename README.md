@@ -17,5 +17,5 @@ Draw a chessboard with the given dimensions of height and width, according to th
 The program is launched by calling the main class with parameters.
 
 ### Launching the program:
-1. Using CommandPrompt run MainCp.java class with two integers for arguments (height and width)
+1. Using CommandPrompt run MainCp.java class with two positive integers for arguments (height and width)
 2. Using an editor run Main.java class, you will be asked to enter data in the terminal. 
