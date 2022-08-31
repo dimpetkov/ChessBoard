@@ -1,11 +1,8 @@
 import entities.Board;
 
-import java.util.Scanner;
-
 public class MainCp {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        
         if(args.length !=2) {
             System.out.println("Please, start the program with correct arguments - two positive integers for rows and columns.");
             return;
@@ -26,7 +23,6 @@ public class MainCp {
         } else {
             System.out.println("The numbers of rows and columns must be positive integers.");
         }
-
     }
 
     private static void printMatrix(String[][] matrix) {
