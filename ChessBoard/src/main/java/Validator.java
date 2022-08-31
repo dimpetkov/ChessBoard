@@ -1,4 +1,5 @@
 public class Validator {
+
     protected static boolean isValidInt(String input) {
         int data;
         try {

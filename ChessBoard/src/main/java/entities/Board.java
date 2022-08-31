@@ -8,6 +8,7 @@ public class Board {
         for (String[] arr : matrix) {
             Arrays.fill(arr, "*");
         }
+
         return matrix;
     }
 }
