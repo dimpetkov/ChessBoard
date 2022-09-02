@@ -19,22 +19,9 @@ public class MainCp {
         String[][] chessBoard;
         chessBoard = Board.boardCreate(height, width);
 
-        printMatrix(chessBoard);
+        PrintMatrix.printMatrix(chessBoard);
         } else {
             System.out.println("The numbers of rows and columns must be positive integers.");
-        }
-    }
-
-    private static void printMatrix(String[][] matrix) {
-        for (String[] arr : matrix) {
-            for (int j = 0; j < arr.length; j++) {
-                if (j <= arr.length - 2) {
-                    System.out.print(arr[j] + " ");
-                } else {
-                    System.out.print(arr[j]);
-                }
-            }
-            System.out.println();
         }
     }
 }
