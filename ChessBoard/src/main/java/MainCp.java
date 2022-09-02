@@ -1,4 +1,4 @@
-import entities.Board;
+
 
 public class MainCp {
     public static void main(String[] args) {

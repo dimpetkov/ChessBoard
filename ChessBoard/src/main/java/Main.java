@@ -1,5 +1,5 @@
 
-import entities.Board;
+
 
 import java.util.Scanner;
 
