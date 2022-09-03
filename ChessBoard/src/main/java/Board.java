@@ -5,14 +5,15 @@ public class Board {
         boolean blackCell = true;
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
+                boolean oddCellsRow = j < matrix[i].length - 1 || matrix[i].length % 2 > 0;
                 if (blackCell) {
                     matrix[i][j] = "*";
-                    if(j < matrix[i].length -1) {
+                    if(oddCellsRow) {
                         blackCell = false;
                     }
                 } else {
                     matrix[i][j] = " ";
-                    if(j < matrix[i].length -1) {
+                    if(oddCellsRow) {
                         blackCell = true;
                     }
                 }
